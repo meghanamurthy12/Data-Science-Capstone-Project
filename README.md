@@ -2,21 +2,24 @@
 
 
 The analysis and code for this project may be broken up into three distinct part:
+<br/>
 1 - Data preparation
 	- UR data preparation
 	- Weather data analysis
 	- Solar declination angle
 	- Daily aggregation
 	- Hourly aggregation
+<br/>
 2 - Predictive Modeling
 	- Exploration
 	- Baseline Models
 	- Gaussian Processes
-
+<br/>
 3 - Further Feature Exploration
 	- XGBoost Model
 	- LightGB model
 ############################################
+<br/>
 Part 1 - Data Preparation
 The steps to re-run the data preparation and data creation are detailed below
 
