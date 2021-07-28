@@ -38,6 +38,7 @@ The steps to re-run the data preparation and data creation are detailed below
 7) Hourly aggregation: In this part, we calculate hourly weather aggregations (maximum, minimum, mean, standard deviation) for all numerical variables, for example, the maximum temptation during the hour etc. Afterward, we merge the weather aggregations and solar declination angle with the solar panel data
 8) After re-run all these sections, we create two datasets (with hourly and daily aggregations) that we will use for modeling
 ############################################
+<br/>
 Part 2 - Predictive Modeling
 The steps to re-run the predictive modeling analysis are detailed below
 
@@ -45,6 +46,7 @@ The steps to re-run the predictive modeling analysis are detailed below
 2) Open and run 2.3-Baseline_models.R to obtain 5-fold RMSE values for the MLR linear model, as well as the coefficient estimates with their respective confidence intervals
 3) Open and run 2.4-Gaussian_Process_Models.ipynb to obtain the final model. This final requires GPFlow to run, a Python library that might be hard to download, but the instructions on the documentation are great.
 ############################################
+<br/>
 Part 3 - Further Feature Exploration
 The steps to re-run the further feature exploration analysis are detailed below
 
